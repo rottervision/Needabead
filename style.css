@@ -1,0 +1,30 @@
+
+body {font-family: "Comic Sans MS", sans-serif;
+      background-color: turquoise;
+      }
+
+h1 {color: purple;
+    font-size: 180%
+
+}
+h2 {color: magenta;
+    font-size: 160%
+
+}
+h3 {color: purple;
+    font-size: 100%
+
+}
+p  {color: black;
+    font-size: 100%
+
+}
+.floating-box {
+   border: 2px solid purple;
+   display: inline-block;
+   width: 160px;
+   height: 90px;
+   margin: 2px;
+   text-align: center;
+
+}

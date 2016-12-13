@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Need a Bead • Choose the beads to suit your needs</title>
+</head>
+<body ng-app="testApp" ng-controller="testCtrl">
+  <h1><a href="#/0home">Need a Bead</a> • Choose the beads to suit your needs</h1>
+
+  <div class="floating-box">
+    <img src="images/01_t_jasper.jpg" alt="Jasper" style="width:160px;height:90px;">
+    <a href="#/1jasper" ng-click="searchEtsy('Jasper')">Jasper</a>
+    </div>
+
+    <div class="floating-box">
+    <img src="images/02_t_Lava.jpg" alt="Lava" style="width:160px;height:90px;">
+    <a href="#/2lava" ng-click="searchEtsy('Lava')">Lava</a>
+    </div>
+
+  <div class="floating-box">
+    <img src="images/03_t_Turquoise.jpg" alt="Turquoise" style="width:160px;height:90px;">
+    <a href="#/3turquoise" ng-click="searchEtsy('Turquoise')">Turquoise</a>
+    </div>
+
+  <div class="floating-box">
+    <img src="images/04_t_LemonQuartz.jpg" alt="Lemon Quartz" style="width:160px;height:90px;">
+    <a href="#/4lemonquartz" ng-click="searchEtsy('Lemon Quartz')">Lemon Quartz</a>
+    </div>
+
+  <div class="floating-box">
+    <img src="images/05_t_ClearQuartz.jpg" alt="Clear Quartz" style="width:160px;height:90px;">
+    <a href="#/5clearquartz" ng-click="searchEtsy('Clear Quartz')">Clear Quartz</a>
+    </div>
+
+  <div class="floating-box">
+    <img src="images/06_t_BlueOpal.jpg" alt="Blue Opal" style="width:160px;height:90px;">
+    <a href="#/6blueopal" ng-click="searchEtsy('Blue Opal')">Blue Opal</a>
+    </div>
+
+<hr>
+<p>Click on one of the 6 links above, to display the bead's charcteristics.<p>
+
+  <ng-view></ng-view>
+
+<!-- <input type="text" name="name" ng-model="userSearch">
+<button type="button" ng-click="searchEtsy(userSearch)">Search Etsy</button>
+
+<p id="searchStuff"></p>-->
+
+<hr>
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+
+
+<h3>©2016 Dave Rotter, Phone: 248 229 9852 • Email: <a href="mailto:dave@rottervision.com">dave@rottervision.com</a>
+</p>
+
+
+</body>
+
+</html>
