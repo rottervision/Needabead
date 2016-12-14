@@ -1,30 +1,64 @@
-
+.header-stuf  {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
 body {font-family: "Comic Sans MS", sans-serif;
       background-color: turquoise;
       }
-
 h1 {color: purple;
     font-size: 180%
-
+    text-align: left;
 }
 h2 {color: magenta;
     font-size: 160%
-
+    text-align: left;
 }
 h3 {color: purple;
     font-size: 100%
-
+    text-align: left;
+}
+h4 {color: red;
+    font-size: 100%
+    text-align: left;
 }
 p  {color: black;
     font-size: 100%
-
+    text-align: left;
 }
+
 .floating-box {
-   border: 2px solid purple;
+   text-align: center;
+   width: 160px;
+   border: 1px solid purple;
    display: inline-block;
    width: 160px;
    height: 90px;
-   margin: 2px;
-   text-align: center;
-
+   margin: 1px;
+   padding-top: 1px;
+   padding-right: 1px;
+   padding-bottom: 1px;
+   padding-left: 1px;
+}
+.big-container {
+   width: 80%;
+   margin: 0 auto;
+   text-align: left;
+   padding-top: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+}
+.page-image
+{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.foot
+{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }

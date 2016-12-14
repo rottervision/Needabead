@@ -1,7 +1,5 @@
 var app = angular.module('testApp', ['ngRoute']);
 
-// begin catdog
-
 app.config(function($routeProvider){
   $routeProvider
     .otherwise({
@@ -36,8 +34,6 @@ app.config(function($routeProvider){
 app.controller('simple', function(){
 });
 
-// end catdog
-
 app.controller('testCtrl', function($scope, $http) {
 
   $scope.searchEtsy = function(userInput) {
@@ -51,8 +47,7 @@ app.controller('testCtrl', function($scope, $http) {
         success: function(data) {
           console.log(data.results[0].description);
           $scope.etsyDescription=data.results[0].description;
-          // window.data = data;
-// document.getElementById("searchStuff").innerHTML =(data);
+          $scope.$apply();
   }
     });
   };
